@@ -1,0 +1,92 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fcf6fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} 
+
+.wrapper {
+    max-width: 1000px;
+    width: 100%;
+    background-color: white;
+    border: 2px solid gainsboro ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+} 
+
+header {
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+}
+
+
+.nav-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.img-container {
+    grid-row: 1/-1;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.header-logo{
+    max-width: 50%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-seeling, .header-dig {
+    max-width: 100%;
+    height: auto;
+    align-self: center;
+}
+
+.header-seeling-container {
+    background-color: #9E6D52;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.header-dig-container {
+    background-color: #0A846E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:0;
+    border: 2px solid #fcf6fc ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 50%;
+}
+
+.nav-bar span {
+    color: #0A846E;
+    font-weight: bold;
+}
+
+.footer {
+    background-image: url('./assets/hand.avif');
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    color: white;
+}
+
