@@ -169,7 +169,7 @@ main{
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 30%; 
+    width: 50%; 
     height: 2px;
     background-color: #0A846E;
   }
@@ -322,8 +322,9 @@ width: 2vw;
 
 
 @media screen and (max-width: 700px) {
+
   .wrapper {
-    margin-bottom:0;
+    margin: 0;
   }
 
   header {
@@ -354,7 +355,21 @@ width: 2vw;
   }
   .content-container h4, .content-container p, .content-container button {
     align-self: center;
-
+  }
+  .previous-cultivation-container .previous-cultivation .content-container button {
+    align-self: center;
   }
 
+  .footer-content {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .contact-info {
+    order:2;
+  }
+
+  .contact-info img{
+    width: 5vw;
+    }
 }
