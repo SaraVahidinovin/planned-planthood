@@ -344,4 +344,17 @@ width: 2vw;
     max-width: 70%;
   }
 
+  .main-title {
+    font-size: 1.5rem;
+    padding-top: 2rem;
+  }
+
+  .season-tips-container, .previous-cultivation {
+    flex-direction: column-reverse;
+  }
+  .content-container h4, .content-container p, .content-container button {
+    align-self: center;
+
+  }
+
 }
