@@ -320,3 +320,28 @@ width: 2vw;
   justify-self: center;
 }
 
+
+@media screen and (max-width: 700px) {
+  .wrapper {
+    margin-bottom:0;
+  }
+
+  header {
+    display: grid;
+    grid-template-rows: 1fr;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .img-container {
+    grid-column: 1/-1;
+    aspect-ratio: 1/1;
+  }
+
+  .header-seeling, .header-dig {
+    max-width: 70%;
+  }
+
+}
